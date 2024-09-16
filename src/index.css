@@ -129,3 +129,12 @@
   letter-spacing: 3px;
   font-size: 2rem;
 }
+
+.correctGuesses {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 16px auto 8px auto;
+  border: solid 1px #ccc;
+  padding: 4px 16px;
+}
