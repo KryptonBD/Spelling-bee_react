@@ -1,8 +1,9 @@
-export const Letter = ({ letter, isCenter }) => {
+export const Letter = ({ letter, isCenter, addLetter }) => {
   return (
     <svg
       className={"cell" + (isCenter ? " center-letter" : " outer-letter")}
       viewBox="0 0 120 103.92304845413263"
+      onClick={() => addLetter(letter)}
     >
       <polygon
         className="cell-fill"
